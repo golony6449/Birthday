@@ -3,29 +3,27 @@
 <head>
 	<title>WEB1 - Welcome</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<h1><a href="index.html">WEB</a></h1>
-	<ol>
-		<li><a href="1.html">HTML</a></li>
-		<li><a href="2.html">CSS</a></li>
-		<li><a href="3.html">JavaScript</a></li>
-	</ol>
-	<h2>WEB이란 무엇인가</h2>
-	<p>The World Wide Web (abbreviated WWW or the web) is an information space where documents and other web resources are identified eb Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet.[1] English scientist Tim Berners_Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland.[2][3] The browser was released outside CERN in 1991, first to other reserach institutions starting in Januart 1991 and to the general public on the Internet in August 1991.</p>
-	<table>
-		<tr>
-			<td>head</td>
-			<td>98.1%</td>
-		</tr>
-		<tr>
-			<td>body</td>
-			<td>97.9%</td>
-		</tr>
-		<tr>
-			<td>html</td>
-			<td>97.9%</td>
-		</tr>
-	</table>
+	<div id="grid">
+		<div class="list">
+			<ol>
+				<li><a href="1.html">HTML</a></li>
+				<li><a href="2.html">CSS</a></li>
+				<li><a href="3.html">JavaScript</a></li>
+			</ol>
+		</div>
+		<div id="article">
+			<h2>WEB이란 무엇인가</h2>
+			<p>The World Wide Web (abbreviated WWW or the web) is an information space where documents and other web resources are identified eb Uniform Resource Locators (URLs), interlinked by hypertext links, and accessible via the Internet.[1] English scientist Tim Berners_Lee invented the World Wide Web in 1989. He wrote the first web browser in 1990 while employed at CERN in Switzerland.[2][3] The browser was released outside CERN in 1991, first to other reserach institutions starting in Januart 1991 and to the general public on the Internet in August 1991.</p>
+		</div>
+	</div>
 </body>
 </html>
+<!--
+	DB에서 자료 긁어오기
+	그래프 그리기
+	긁어온 자료로 계산해서 결과값 보여주기
+-->
