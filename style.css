@@ -42,3 +42,6 @@ body {
         border-bottom: none;
     }
 }
+figure {
+    margin-left: 0px;
+}
